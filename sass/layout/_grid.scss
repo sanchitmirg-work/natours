@@ -2,14 +2,14 @@
     //1140 px is standard grid size;
     max-width: $grid-width;
     margin: 0 auto; //center the block element inside another block element
-    background-color: #eee;
+    // background-color: #eee;
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
     }
     @include clearfix;
     [class^="col-"] {
         float: left;
-        background-color: orangered;
+        // background-color: orangered;
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
         }
