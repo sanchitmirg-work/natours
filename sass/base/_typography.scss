@@ -1,3 +1,43 @@
+body {
+    font-family: "Lato" sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #777;
+    
+}
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+
+    &-sub {
+        display: block;
+        font-weight: 700;
+        font-size: 2rem;
+        letter-spacing: 1.74rem;
+        animation: moveinright 2s ease-in;
+
+        @include respond(phone) {
+            font-size: 1rem;
+            letter-spacing: .74rem;
+        }
+    }
+
+    &-main {
+        display: block;
+        font-weight: 400;
+        font-size: 6rem;
+        letter-spacing: 3.5rem;
+        animation: moveinleft 2s ease-in;
+
+        @include respond(phone) {
+            font-size: 5rem;
+            letter-spacing: 1rem;
+        }
+    }
+}
+
 .heading-secondary {
     font-size: 3.5rem;
     text-transform: uppercase;
@@ -8,6 +48,14 @@
     color: transparent;
     letter-spacing: 2px;
     transition: all .2s;
+
+    @include respond(tab-port) {
+        font-size: 3rem;
+    }
+
+    @include respond(phone) {
+        font-size: 2.5rem;
+    }
     &:hover {
         transform: skewY(2deg) skewX(15deg);
         text-shadow: .5rem 1rem 2rem rgba($color-black, .2)

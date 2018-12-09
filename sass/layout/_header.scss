@@ -9,12 +9,12 @@
 
 .logo-box {
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 4rem;
+    left: 4rem;
 }
 
 .logo {
-    height: 35px;
+    height: 3.5rem;
 }
 
 .text-box {
@@ -25,24 +25,3 @@
     text-align: center;
 }
 
-.heading-primary {
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 60px;
-}
-
-.heading-primary-main {
-    display: block;
-    font-weight: 400;
-    font-size: 60px;
-    letter-spacing: 35px;
-    animation: moveinleft 2s ease-in;
-}
-
-.heading-primary-sub {
-    display: block;
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 17.4px;
-    animation: moveinright 2s ease-in;
-}
